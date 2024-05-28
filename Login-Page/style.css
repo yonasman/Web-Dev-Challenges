@@ -1,0 +1,137 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+body {
+    background-color: #202521;
+    color: #fff;
+}
+.login-container {
+    width: 67vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+.left-container {
+    background-image: url("./images/man-drinking-coffee-in-front-of-laptop.jpg");
+    background-position: top;
+    background-size: cover;
+    border-radius: 15px;
+    width: 30vw;
+    height: 82vh;
+    transform: rotateY(180deg);
+} 
+.right-container {
+    width: 25vw;
+    height: 80vh;
+}
+.google-button {
+    background-color: #161616;
+    color: #fff;
+    width: 21rem;
+    border-radius: 20px;
+    border: none;
+    height: 38px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 25px 0;
+    cursor: pointer;
+}
+.google-button div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 14px;
+}
+/* form part */
+form input{
+    display: block;
+    width: 21rem;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: #161616;
+    margin-bottom: 15px;
+    color: #fff;
+    padding: 0 10px;
+}
+form label:not(:last-child) {
+    display: block;
+    margin-bottom: 3px;
+}
+form input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    background-color: #161616;
+    margin-top: 14px;
+    cursor: pointer;
+}
+form label[for="checkbox"] {
+    font-size: 15px;
+}
+.login-button {
+    width: 100px;
+    height: 42px;
+    background-color: #2463EB;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login-button:hover {
+    background-color: #040a0b;
+    border: 1px solid #fff;
+}
+.check-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    /* height: 100px; */
+}
+.account-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+}
+.account-wrapper p {
+    font-size: 13px;
+}
+.account-wrapper a {
+    font-size: 13px;
+    color: rgb(47, 125, 226);
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .login-container {
+    flex-direction: column;
+    }
+    .login-container {
+        height: 175vh;
+        padding: 30px;
+    }
+    .left-container {
+        width: 370px;
+    }
+    .right-container {
+        width: 350px;
+    }
+}
