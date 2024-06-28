@@ -1,0 +1,105 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #A4B5C8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    margin: 40px auto;
+    width: 55%;
+    background-color: #fff;
+    padding: 50px 80px;
+    /* height: 140vh; */
+    height: auto;
+    border-radius: 10px;
+}
+
+.top-text-container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-text-container p {
+    /* text-align: center; */
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.container .top-text-container h1  {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.body-wrapper {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.content-wrapper .longer-content .images {
+    height: 300px;
+    width: 250px;
+    
+}
+.content-wrapper .wider-content .images {
+    height: 170px;
+    width: 250px;
+    
+}
+ .content-wrapper .longer-content,.content-wrapper .wider-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    row-gap: 5px;
+ }
+.content-wrapper .images img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.content-wrapper h2 {
+    font-size: 15px;
+    padding-left: 10px;
+}
+.content-wrapper p {
+    color: #88888b;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 13px;
+}
+.footer i {
+    color: blue;
+    margin-left: 10px;
+}
+/* media query */
+@media all and (max-width: 768px) {
+    .body-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
