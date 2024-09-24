@@ -1,0 +1,75 @@
+/* poppins font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 30px;
+}
+body {
+    font-family: poppins,sans-serif;
+    background-color: #f9f7f7;
+}
+.stars {
+    font-family: 'FontAwesome';
+    color: rgb(255, 197, 80);
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-top: 13px;
+    padding-left: 7px;
+}
+.top-text {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+}
+.top-header {
+    text-align: center;
+    margin-top: 0;
+    font-weight: 500;
+}
+.testimonial-container {
+    display: flex;
+    flex: 1;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.testimonial-wrapper {
+    width: 30%;
+    height: 50%;
+    background-color: #fff;
+    padding: 10px;
+}
+.testimonial-wrapper img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}  
+.profile-wrapper {
+    display: flex;
+}
+.testimonial-text {
+    padding: 2px 10px;
+    font-size: 15px;
+}
+.profile-wrapper {
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+.profile-info {
+    padding-left: 8px;
+}
+.person-name {
+    font-weight: bold;
+} 
+.person-job {
+    font-size: 13px;
+    color: #6d6a6a;
+}
